@@ -1,0 +1,65 @@
+*{
+  margin:0;
+  padding:0;
+}
+html{
+  font-family: "Ubuntu", sans-serif;
+  opacity: 0.9;
+  background-color: #e6e6e6;
+  background: radial-gradient(circle, transparent 20%, #e6e6e6 20%, #e6e6e6 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #e6e6e6 20%, #e6e6e6 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#5e5e62 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #5e5e62 2px, #e6e6e6 2px) -1px 0;
+  background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+}
+#main{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #eee;
+  width: 90%;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+#main>h1,h2,p{
+  margin:20px;
+}
+#tribute-img{
+  display:flex;
+  flex-direction:column;
+  background-color: white;
+  margin: 10px auto;
+  width: 90%;
+  align-items: center;
+  justify-content:center;
+  padding: 10px;
+  text-align:center;
+}
+#tribute-img>img{
+  position: relative;
+  width:90%;
+  margin-bottom: 10px;
+  animation: all 1s ease;
+}
+#tribute-img>img:hover{
+  bottom: 10px;
+  box-shadow: 0 15px 10px 0 grey;
+}
+#timelapse{
+  width: 80%;
+}
+#timelapse>li{
+  margin: 9px 0;
+}
+#quote{
+  width: 80%;
+}
+footer{
+  text-align: center;
+  width: 90%;
+  background-color: #eee;
+  margin: 20px auto;
+  padding: 30px 10px;
+  max-width: 1000px;
+}
+@media (max: 600px){
+}
